@@ -1,6 +1,6 @@
 # Online shop using Node JS and Express JS <br>
 **node_module isn't uploaded.** <br>
-**Requested to run _npm install_ to intall related node dependencies.** <br>
+**Requesting to run _'npm install'_ command to intall related node dependencies.** <br>
 
 
 ## Screenshots:
