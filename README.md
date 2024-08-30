@@ -18,7 +18,7 @@ _06_
 
 ## Screenshots:
 Home: <br>
-<img src="screenshots/01.jpg" width="450">
+<img src="/screenshots/01.jpg" width="450">
 
 Cart: <br>
 <img src="screenshots/02.jpg" width="450">
