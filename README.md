@@ -5,20 +5,23 @@
 
 ## Screenshots:
 Home: <br>
-<img src="screenshots/01.png" width="800">
+<img src="screenshots/home1.png" width="800">
 
 Cart: <br>
-<img src="screenshots/02.png" width="800">
+<img src="screenshots/cart1.png" width="800">
 
 Products: <br>
-<img src="screenshots/03.png" width="800">
+<img src="screenshots/products1.png" width="800">
 
 Product Dtails: <br>
-<img src="screenshots/04.png" width="800">
+<img src="screenshots/details1.png" width="800">
 
 Add Product: <br>
-<img src="screenshots/05.png" width="800">
+<img src="screenshots/addproduct1.png" width="800">
 
 Admin Products: <br>
-<img src="screenshots/06.png" width="800">
+<img src="screenshots/adminproducts1.png" width="800">
+
+Edit Products: <br>
+<img src="screenshots/editproduct1.png" width="800">
 
