@@ -1,10 +1,10 @@
-# Online shop <br>
-## Platform: Node JS
-## Framwork: Express
-## Database: PostgreSQL
-## ORM: Sequelize <br>
+# Node JS Online Shop <br>
+### Platform: Node JS <br>
+### Framwork: Express <br>
+### Database: PostgreSQL <br>
+### ORM: Sequelize <br><hr>
 **node_module isn't uploaded.** <br>
-**Requesting to run _'npm install'_ command to intall related node dependencies.** <br>
+**Requesting to run _'npm install'_ command to intall related node dependencies.** <br> <hr>
 
 
 ## Screenshots:
@@ -14,14 +14,14 @@ Home: <br>
 Products: <br>
 <img src="screenshots/products1.png" width="800">
 
+Product Dtails: <br>
+<img src="screenshots/details1.png" width="800">
+
 Cart: <br>
 <img src="screenshots/cart1.png" width="800">
 
 Orders: <br>
 <img src="screenshots/orders1.png" width="800">
-
-Product Dtails: <br>
-<img src="screenshots/details1.png" width="800">
 
 Add Product: <br>
 <img src="screenshots/addproduct1.png" width="800">
