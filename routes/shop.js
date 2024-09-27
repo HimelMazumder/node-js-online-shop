@@ -1,5 +1,3 @@
-'use strict';
-
 const path = require('path');
 
 const express = require('express');
@@ -12,17 +10,16 @@ router.get('/', shopController.getIndex);
 
 router.get('/products', shopController.getProducts);
 
+router.get('/products/:productId', shopController.getProduct);
+
 router.get('/cart', shopController.getCart);
 
 router.post('/cart', shopController.postCart);
 
+router.post('/cart-delete-item', shopController.postCartDeleteProduct);
+
+router.post('/create-order', shopController.postOrder);
+
 router.get('/orders', shopController.getOrders);
-
-router.get('/checkout', shopController.getCheckout);
-
-router.get('/product-detail/:productId', shopController.getProductDetail);
-
-router.post('/cart-delete-item', shopController.postDeleteCartItem);
-
 
 module.exports = router;

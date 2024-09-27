@@ -14,16 +14,16 @@
                             <h1 class="product__title"><%= product.title %></h1>
                         </header>
                         <div class="card__image">
-                            <img src="<%= product.imageUrl %>"
+                            <img src="<%= product.image_url %>"
                                 alt="<%= product.title %>">
                         </div>
                         <div class="card__content">
-                            <h2 class="product__price">$<%= product.price %></h2>
+                            <h2 class="product__price">$ <%= product.price %></h2>
                             <p class="product__description"><%= product.description %></p>
                         </div>
                         <div class="card__actions">
-                            <!-- product isn't globally available as it is a local variable to the loop -->
-                            <%- include('../includes/add-to-cart.ejs', {product}) %>
+                                <a href="/products/<%= product.id %>" class="btn">Details</a>
+                            <%- include('../includes/add-to-cart.ejs', {product: product}) %>
                         </div>
                     </article>
                 <% } %>
