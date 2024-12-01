@@ -1,4 +1,5 @@
 # Node JS Online Shop <br>
+## live view: <a href="https://node-js-online-shop.onrender.com">node-js-online-shop.onrender.com</a>
 ### Platform: Node JS <br>
 ### Framwork: Express <br>
 ### Database: MongoDB <br>
