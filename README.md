@@ -1,8 +1,8 @@
 # Node JS Online Shop <br>
 ### Platform: Node JS <br>
 ### Framwork: Express <br>
-### Database: PostgreSQL <br>
-### ORM: Sequelize <br><hr>
+### Database: MongoDB <br>
+### ORM: Mongoose <br><hr>
 **node_module isn't uploaded.** <br>
 **Requesting to run _'npm install'_ command to intall related node dependencies.** <br> <hr>
 
