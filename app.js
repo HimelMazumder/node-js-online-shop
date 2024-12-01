@@ -8,6 +8,7 @@ const errorController = require('./controllers/error');
 const User = require("./models/user");
 
 const app = express();
+const port = process.env.PORT || 4000;
 
 app.set('view engine', 'ejs');
 app.set('views', 'views');
@@ -51,6 +52,6 @@ mongoose.connect("mongodb+srv://himelMazumder:v43Sp6Y4qJWswrFT@cluster0.tduuh.mo
     }
 
     console.log("DB Connected");
-    app.listen(3000); 
+    app.listen(port); 
   })
   .catch(err => console.log(err));
