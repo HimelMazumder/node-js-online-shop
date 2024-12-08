@@ -3,7 +3,7 @@
 ### Platform: Node JS <br>
 ### Framwork: Express <br>
 ### Database: MongoDB <br>
-### ORM: Mongoose <br><hr>
+### ODM: Mongoose <br><hr>
 **node_module isn't uploaded.** <br>
 **Requesting to run _'npm install'_ command to intall related node dependencies.** <br> <hr>
 
