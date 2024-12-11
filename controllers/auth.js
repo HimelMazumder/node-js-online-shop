@@ -22,7 +22,7 @@ exports.postLogin = (req, res, next) => {
     const password = req.body.password;
     console.log(email, password);
 
-    User.findById("6759bf7fbfc6cfc784c62ebf")
+    User.findById("6759d3c49ba8def635c0700f")
         .then(user => {
             req.session.user = user;
             req.session.isLoggedIn = true;
