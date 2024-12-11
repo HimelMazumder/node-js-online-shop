@@ -57,7 +57,7 @@ app.use(errorController.get404);
 
 mongoose.connect(MONGODB_URI)
   .then(result => {
-    return User.findById("6759bf7fbfc6cfc784c62ebf");
+    return User.findById("6759d3c49ba8def635c0700f");
   })
   .then(user => {
     if (!user) {
