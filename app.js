@@ -10,6 +10,7 @@ const errorController = require('./controllers/error');
 const User = require("./models/user");
 
 const app = express();
+const PORT = process.env.PORT || 3030;
 const MONGODB_URI = "mongodb+srv://himelMazumder:v43Sp6Y4qJWswrFT@cluster0.tduuh.mongodb.net/node_test_mon_live?retryWrites=true&w=majority&appName=Cluster0";
 const mongodbSessionStore = new MongodbSessionStore({
   uri: "mongodb+srv://himelMazumder:v43Sp6Y4qJWswrFT@cluster0.tduuh.mongodb.net/node_test_mon_live",
@@ -73,6 +74,6 @@ mongoose.connect(MONGODB_URI)
     }
 
     console.log("DB Connected");
-    app.listen(3000);
+    app.listen(PORT);
   })
   .catch(err => console.log(err));
