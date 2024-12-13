@@ -77,7 +77,7 @@ mongoose.connect(MONGODB_URI)
     console.log("DB Connected");
     // If host omitted, the server listens on all available network interfaces.
     const host = "localhost";
-    const port = 3000;
+    const port = process.env.PORT || 3030;
     app.listen(port, host, () => {
       console.log(`Server running on ${host} at port ${port}`);
     });
