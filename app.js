@@ -11,6 +11,8 @@ const flash = require("connect-flash");
 const errorController = require('./controllers/error');
 const User = require("./models/user");
 
+const PORT = process.env.PORT || 3030;
+
 const app = express();
 const MONGODB_URI = "mongodb+srv://himelMazumder:v43Sp6Y4qJWswrFT@cluster0.tduuh.mongodb.net/node_test_mon_live?retryWrites=true&w=majority&appName=Cluster0";
 const mongodbSessionStore = new MongodbSessionStore({
@@ -75,11 +77,8 @@ app.use(errorController.get404);
 mongoose.connect(MONGODB_URI)
   .then(result => {
     console.log("DB Connected");
-    // If host omitted, the server listens on all available network interfaces.
-    const host = "localhost";
-    const port = process.env.PORT || 3030;
-    app.listen(port, host, () => {
-      console.log(`Server running on ${host} at port ${port}`);
+    app.listen(PORT, () => {
+      console.log(`Server running on ${host} at port ${PORT}`);
     });
   })
   .catch(err => console.log(err));
