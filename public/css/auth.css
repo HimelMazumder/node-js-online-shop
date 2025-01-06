@@ -1,0 +1,19 @@
+.login-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.reset-password {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.reset-password a {
+    text-decoration: none;    
+}
+
+.reset-password a:hover {
+    text-decoration: underline;    
+}

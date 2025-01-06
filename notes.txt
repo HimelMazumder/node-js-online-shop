@@ -1,0 +1,6 @@
+modification spots for live version
+controller->
+   app.js
+      -> const PORT = process.env.PORT || 3030;
+   auth.js
+      -> postResetPassword()
