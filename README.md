@@ -10,6 +10,7 @@
 
 ### ODM: Mongoose <br><hr>
 
+**.env file containing secret keys isn't uploaded due to security reasons** <br>
 **node_module isn't uploaded.** <br>
 **Requesting to run _'npm install'_ command to intall related node dependencies.** <br> <hr>
 
